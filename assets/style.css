@@ -1,0 +1,74 @@
+@font-face {
+    font-family: k2dregular;
+    src: url(font/K2D/K2D-Regular.ttf);
+}
+@font-face {
+    font-family: k2dbold;
+    src: url(font/K2D/K2D-Bold.ttf);
+}
+@font-face {
+    font-family: k2dextrabold;
+    src: url(font/K2D/K2D-ExtraBold.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+
+.alineado{
+    display: flex;
+    align-items: center;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcionesIndex{
+    transition-duration: 1s;
+}
+
+.opcionesIndex:hover{
+    opacity: 0.2 ;
+}
+
+
+.menu > span > a, .sec2 > span > a{
+    color: #fff;
+    font-family: k2dextrabold;
+    font-size: 28px;
+    transition: 1s;
+}
+
+.menufoot > span > span > a{
+    color: #fff;
+    font-family: k2dregular;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.menu > span > a:hover, .sec2 > span > a:hover, .menufoot > span > span > a:hover{
+    color: #ff3131;
+}
+
+.sec2 > span{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.sec2 > span:hover{
+    filter: grayscale(0%);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
